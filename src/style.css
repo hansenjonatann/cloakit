@@ -1,447 +1,462 @@
-        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap");
 
-        :root {
-        --primary-: #4addc2;
-        --secondary: #eff5f5;
-        }
-        .bg-primary {
-        background-color: var(--primary-) !important;
-        }
+:root {
+  --primary-: #4addc2;
+  --secondary: #eff5f5;
+}
+.bg-primary {
+  background-color: var(--primary-) !important;
+}
 
-        .bg-secondary {
-        background-color: var(--secondary) !important;
-        }
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
 
-        .nav-link {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 300;
-        font-size: 15px;
-        }
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
 
-        .nav-link:hover {
-        text-decoration: underline;
-        }
+.nav-link:hover {
+  text-decoration: underline;
+}
 
-        .banner {
-        height: 657px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        }
+.banner {
+  height: 657px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-        .banner-title {
-        font-family: "Montserrat", sans-serif;
-        font-size: 44px;
-        }
+.banner-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+}
 
-        .banner-subtitle {
-        font-family: "Open Sans", sans-serif;
-        font-size: 24px;
-        font-weight: 500;
-        }
+.banner-subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
 
-        .banner-cta-btn {
-        border: 3px solid white;
-        text-decoration: none;
-        padding: 8px 28px;
-        border-radius: 20px;
-        color: white;
-        margin: 10px;
-        text-align: center;
-        font-size: 16px;
-        font-family: "Montserrat", sans-serif;
-        cursor: pointer;
-        }
+.banner-cta-btn {
+  border: 3px solid white;
+  text-decoration: none;
+  padding: 8px 28px;
+  border-radius: 20px;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
 
-        .banner-cta-btn:hover {
-        border: 3px dotted red;
-        transition: 0.4s all ease-in-out;
-        font-weight: bold;
-        background: white;
-        color: var(--primary-);
-        }
+.banner-cta-btn:hover {
+  border: 3px dotted red;
+  transition: 0.4s all ease-in-out;
+  font-weight: bold;
+  background: white;
+  color: var(--primary-);
+}
 
-        .section-title {
-        font-size: 32px;
-        color: #111;
-        text-align: center;
-        margin-top: 3%;
-        font-weight: 400;
-        }
+.section-title {
+  font-size: 32px;
+  color: #111;
+  text-align: center;
+  margin-top: 3%;
+  font-weight: 400;
+}
 
-        .section-divider {
-        display: block;
-        width: 60px;
-        height: 3px;
-        background: var(--primary-);
-        background: linear-gradient(0deg, var(--primary-) 0%, #55fabe 100%);
-        margin: 0 auto;
-        margin-bottom: 20px;
-        }
+.section-divider {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--primary-);
+  background: linear-gradient(0deg, var(--primary-) 0%, #55fabe 100%);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
 
-        .icon > i {
-        color: var(--primary-);
-        font-size: 60px;
-        }
+.icon > i {
+  color: var(--primary-);
+  font-size: 60px;
+}
 
-        .title {
-        font-family: "Montserrat", sans-serif;
-        font-size: 24px;
-        }
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
 
-        .description {
-        font-family: "Montserrat", sans-serif;
-        font-size: 18px;
-        }
+.description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
 
-        #teknologi {
-        background-color: var(--secondary);
-        height: 662.75px;
-        margin-top: 5%;
-        padding-top: 3%;
-        }
+#teknologi {
+  background-color: var(--secondary);
+  height: 662.75px;
+  margin-top: 5%;
+  padding-top: 3%;
+}
 
-        #teknologi .box {
-        padding: 40px;
-        margin-bottom: 30px;
-        box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-        background: #fff;
-        transition: 0.4s;
-        height: 100%;
-        }
+#teknologi .box {
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  background: #fff;
+  transition: 0.4s;
+  height: 100%;
+}
 
-        #teknologi .icon {
-        float: left;
-        }
+#teknologi .icon {
+  float: left;
+}
 
-        #teknologi h4 {
-        margin-left: 100px;
-        }
+#teknologi h4 {
+  margin-left: 100px;
+}
 
-        #teknologi h4 a {
-        text-decoration: none;
-        }
-        #teknologi p {
-        font-size: 14px;
-        margin-left: 100px;
-        margin-bottom: 0;
-        line-height: 24px;
-        }
+#teknologi h4 a {
+  text-decoration: none;
+}
+#teknologi p {
+  font-size: 14px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  line-height: 24px;
+}
 
-        #pricing {
-        padding: 60px 0 60px 0;
-        overflow: hidden;
-        }
+#pricing {
+  padding: 60px 0 60px 0;
+  overflow: hidden;
+}
 
-        #section-header {
-        box-sizing: border-box;
-        }
+#section-header {
+  box-sizing: border-box;
+}
 
-        #pricing .box {
-        padding: 40px;
-        margin-bottom: 30px;
-        box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-        background: #fff;
-        text-align: center;
-        }
+#pricing .box {
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  background: #fff;
+  text-align: center;
+}
 
-        #pricing h3 {
-        font-weight: 400;
-        margin-bottom: 15px;
-        font-size: 28px;
-        }
+#pricing h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
 
-        #pricing h4 {
-        font-size: 48px;
-        color: var(--primary-);
-        font-weight: 300;
-        }
+#pricing h4 {
+  font-size: 48px;
+  color: var(--primary-);
+  font-weight: 300;
+}
 
-        #pricing h4 sup {
-        font-size: 20px;
-        top: -20px;
-        }
+#pricing h4 sup {
+  font-size: 20px;
+  top: -20px;
+}
 
-        #pricing h4 span {
-        color: #bababa;
-        font-size: 20px;
-        }
+#pricing h4 span {
+  color: #bababa;
+  font-size: 20px;
+}
 
-        #pricing ul {
-        padding: 0;
-        list-style: none;
-        color: #999;
-        text-align: left;
-        line-height: 20px;
-        }
+#pricing ul {
+  padding: 0;
+  list-style: none;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
+}
 
-        #pricing ul li {
-        padding-bottom: 12px;
-        }
+#pricing ul li {
+  padding-bottom: 12px;
+}
 
-        #pricing ul i {
-        color: var(--primary-);
-        font-size: 18px;
-        padding-right: 4px;
-        }
+#pricing ul i {
+  color: var(--primary-);
+  font-size: 18px;
+  padding-right: 4px;
+}
 
-        #pricing .get-started-btn {
-        background: #515e61;
-        display: inline-block;
-        padding: 6px 30px;
-        border-radius: 20px;
-        color: #fff;
-        text-decoration: none;
-        transition: none;
-        font-size: 14px;
-        font-weight: 400;
-        font-family: "Montserrat", sans-serif;
-        }
+#pricing .get-started-btn {
+  background: #515e61;
+  display: inline-block;
+  padding: 6px 30px;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
 
-        #pricing .featured {
-        border: 2px solid var(--primary-);
-        }
+#pricing .featured {
+  border: 2px solid var(--primary-);
+}
 
-        #pricing .featured .get-started-btn {
-        background: linear-gradient(45deg, #1de099, var(--primary-));
-        }
+#pricing .featured .get-started-btn {
+  background: linear-gradient(45deg, #1de099, var(--primary-));
+}
 
-        .back-to-top {
-        position: fixed;
-        background: linear-gradient(45deg, #1de099, var(--primary-));
-        color: #fff;
-        border-radius: 4px 4px 0 0;
-        right: 15px;
-        bottom: 0;
-        transition: none;
-        visibility: hidden;
-        opacity: 0;
-        width: 64px;
-        height: 34px;
-        }
+.back-to-top {
+  position: fixed;
+  background: linear-gradient(45deg, #1de099, var(--primary-));
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  right: 15px;
+  bottom: 0;
+  transition: none;
+  visibility: hidden;
+  opacity: 0;
+  width: 64px;
+  height: 34px;
+}
 
-        .back-to-top i {
-        line-height: 0px;
-        font-size: 20px;
-        }
-        .bi::before,
-        [class^="bi-"]::before,
-        [class*=" bi-"]::before {
-        display: inline-block;
-        font-family: bootstrap-icons !important;
-        font-style: normal;
-        font-weight: normal !important;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
-        vertical-align: -0.125em;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        }
+.back-to-top i {
+  line-height: 0px;
+  font-size: 20px;
+}
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-        .bi-chevron-up::before {
-        content: "\f286";
-        }
-        .back-to-top.active {
-        visibility: visible;
-        opacity: 1;
-        }
+.bi-chevron-up::before {
+  content: "\f286";
+}
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
 
-        #video {
-        padding: 60px 0 0 0;
-        overflow: hidden;
-        }
+#video {
+  padding: 60px 0 0 0;
+  overflow: hidden;
+}
 
-        .section-bg {
-        background: #eff5f5 !important;
-        }
+.section-bg {
+  background: #eff5f5 !important;
+}
 
-        #video .gallery-item {
-        overflow: hidden;
-        position: relative;
-        padding: 0;
-        vertical-align: middle;
-        text-align: center;
-        }
+#video .gallery-item {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+}
 
-        [data-aos^="fade"][data-aos^="fade"].aos-animate {
-        opacity: 1;
-        transform: translateZ(0);
-        }
+[data-aos^="fade"][data-aos^="fade"].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
+}
 
-        #kontak {
-        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-        padding: 60px 0;
-        overflow: hidden;
-        }
+#kontak {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 60px 0;
+  overflow: hidden;
+}
 
-        .row {
-        --bs-gutter-x: 1.5rem;
-        --bs-gutter-y: 0;
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: calc(-1 * var(--bs-gutter-y));
-        margin-right: calc(-0.5 * var(--bs-gutter-x));
-        margin-left: calc(-0.5 * var(--bs-gutter-x));
-        }
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
 
-        #kontak .contact-about h3 {
-        font-size: 36px;
-        margin: 0 0 10px 0;
-        padding: 0;
-        line-height: 1;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 300;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        color: var(--primary-);
-        }
+#kontak .contact-about h3 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--primary-);
+}
 
-        #kontak .contact-about p {
-        font-size: 14px;
-        line-height: 24px;
-        font-family: "Montserrat", sans-serif;
-        color: #888;
-        }
+#kontak .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #888;
+}
 
-        #kontak .social-links {
-        padding-bottom: 20px;
-        }
+#kontak .social-links {
+  padding-bottom: 20px;
+}
 
-        #kontak .social-links a {
-        font-size: 10px;
-        background: #fff;
-        color: var(--primary-);
-        padding: 8px 0;
-        margin-right: 4px;
-        border-radius: 50%;
-        width: 36px;
-        height: 36px;
-        transition: 0.3s;
-        border: 1px solid var(--primary-);
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        }
+#kontak .social-links a {
+  font-size: 10px;
+  background: #fff;
+  color: var(--primary-);
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid var(--primary-);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
-        #kontak .info {
-        color: #333333;
-        }
+#kontak .info {
+  color: #333333;
+}
 
-        #kontak .info i {
-        font-size: 32px;
-        color: var(--primary-);
-        float: left;
-        line-height: 0;
-        }
+#kontak .info i {
+  font-size: 32px;
+  color: var(--primary-);
+  float: left;
+  line-height: 0;
+}
 
-        #kontak .info p {
-        padding: 0 0 10px 42px;
-        line-height: 28px;
-        font-size: 14px;
-        }
+#kontak .info p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
+  font-size: 14px;
+}
 
-        form {
-        display: block;
-        margin-top: 0em;
-        }
+form {
+  display: block;
+  margin-top: 0em;
+}
 
-        .mt-3 {
-        margin-top: 1rem !important;
-        }
+.mt-3 {
+  margin-top: 1rem !important;
+}
 
-        #kontak .php-email-form button[type="submit"] {
-        background: linear-gradient(45deg, #1de099, var(--primary-));
-        border: 0;
-        border-radius: 20px;
-        padding: 8px 30px;
-        color: #fff;
-        }
+#kontak .php-email-form button[type="submit"] {
+  background: linear-gradient(45deg, #1de099, var(--primary-));
+  border: 0;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #fff;
+}
 
-        #kontak .php-email-form input[type="text"] {
-        border-radius: 0;
-        box-shadow: none;
-        font-size: 14px;
-        }
-        #kontak .php-email-form input,
-        #kontak .php-email-form textarea {
-        border-radius: 0;
-        box-shadow: none;
-        font-size: 14px;
-        }
+#kontak .php-email-form input[type="text"] {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+#kontak .php-email-form input,
+#kontak .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
 
-        .my-3 {
-        margin-top: 1rem !important;
-        margin-bottom: 1rem !important;
-        }
+.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
 
-        #kontak .php-email-form .loading {
-        display: none;
-        background: #fff;
-        text-align: center;
-        padding: 15px;
-        }
+#kontak .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
 
-        #kontak .php-email-form .error-message {
-        display: none;
-        color: #fff;
-        background: #ed3c0d;
-        text-align: center;
-        padding: 15px;
-        font-weight: 600;
-        }
+#kontak .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
 
-        #kontak .php-email-form .sent-message {
-        display: none;
-        color: #fff;
-        background: #18d26e;
-        text-align: center;
-        padding: 15px;
-        font-weight: 600;
-        }
-        /* Responsive */
+#kontak .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
 
-        @media screen and (max-width: 767px) {
-        .banner {
-            overflow-x: hidden;
-        }
-        .banner-title {
-            font-size: 26px;
-            line-height: 36px;
-        }
+#widget-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
 
-        .banner-subtitle {
-            font-size: 17px;
-            line-height: 24px;
-            text-align: center;
-        }
+#widget-container i {
+  color: green;
+  font-size: 40px;
+}
+/* Responsive */
 
-        #teknologi .box {
-            margin-bottom: 20px;
-        }
-        #teknologi .icon {
-            float: none;
-            text-align: center;
-            padding-bottom: 15px;
-        }
+@media screen and (max-width: 767px) {
+  .banner {
+    overflow-x: hidden;
+  }
+  .banner-title {
+    font-size: 26px;
+    line-height: 36px;
+  }
 
-        #teknologi h4 {
-            margin-left: 0;
-            text-align: center;
-        }
+  .banner-subtitle {
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+  }
 
-        #teknologi h4 a {
-            color: black;
-            font-weight: bold;
-        }
+  #teknologi .box {
+    margin-bottom: 20px;
+  }
+  #teknologi .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
 
-        #teknologi p {
-            text-align: center;
-            margin: 0;
-        }
+  #teknologi h4 {
+    margin-left: 0;
+    text-align: center;
+  }
 
-        #pricing .section-title {
-            padding-top: 140%;
-        }
-        }
+  #teknologi h4 a {
+    color: black;
+    font-weight: bold;
+  }
+
+  #teknologi p {
+    text-align: center;
+    margin: 0;
+  }
+
+  #pricing .section-title {
+    padding-top: 140%;
+  }
+}
