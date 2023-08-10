@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cloakit</title>
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- BOOTSTRAP ICON CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./src/style.css" />
+    <!-- GOOGLE FONTS CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Cloakit</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-medium">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fitur">Fitur</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#teknologi">Teknologi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#harga">Harga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#video">Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/">Member</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="bg-primary text-white banner" data-aos="zoom-out">
+      <h2 class="banner-title">Selamat Datang di Cloakit</h2>
+      <p class="banner-subtitle">
+        Solusi profesional untuk penyaringan lalu lintas dan keamanan konten
+        berdasarkan Pembelajaran Mesin
+      </p>
+      <a class="banner-cta-btn">Get Started</a>
+    </div>
+
+    <!-- Fitur -->
+    <section id="fitur">
+      <div class="row">
+        <div class="col-lg-12 mt-4">
+          <h2 class="section-title">Fitur</h2>
+          <span class="section-divider"></span>
+        </div>
+      </div>
+      <div class="container mt-4" data-aos="fade-up" data-aos-duration="3000">
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-6">
+            <div class="icon">
+              <i class="bi bi-robot"></i>
+            </div>
+            <h3 class="title">Perlindungan Bot</h3>
+            <p class="description">Melindungi halaman anda dari Bot.</p>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="icon">
+              <i class="bi bi-binoculars"></i>
+            </div>
+            <h3 class="title">Perlindungan Mata-Mata</h3>
+            <p class="description">
+              Melindungi halaman anda dari layanan mata-mata.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center mt-4">
+          <div class="col-md-6 col-lg-6">
+            <div class="icon">
+              <i class="bi bi-bezier"></i>
+            </div>
+            <h3 class="title">Pemisahan Halaman</h3>
+            <p class="description">
+              Melakukan pemisahan halaman ketika Bot dan User.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="icon">
+              <i class="bi bi-clipboard2-check"></i>
+            </div>
+            <h3 class="title">Monetisasi</h3>
+            <p class="description">Membantu mengoptimalkan halaman anda.</p>
+          </div>
+        </div>
+        <div class="row text-center mt-5">
+          <div class="col-md-12 col-lg-12">
+            <div class="icon">
+              <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <h3 class="title">ROI dan Optimasi lalu lintas</h3>
+            <p class="description">Mengoptimasi ROI dan lalu lintas halaman.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teknologi -->
+    <section id="teknologi">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title">Teknologi</h3>
+          <span class="section-divider"></span>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="box" data-aos="fade-right">
+              <div class="icon"><i class="bi bi-code-square"></i></div>
+              <h4 class="title"><a href="">PHP / JS</a></h4>
+              <p class="description">
+                Gunakan situs web atau pembuat situs web Anda sendiri. Tidak
+                diperlukan keterampilan teknis. Skrip penyiapan kami yang cepat
+                dan intuitif akan membuat Anda siap dan berjalan dalam satu
+                menit.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box" data-aos="fade-left">
+              <div class="icon"><i class="bi bi-globe2"></i></div>
+              <h4 class="title"><a href="">CDN</a></h4>
+              <p class="description">
+                Kami memastikan keandalan dan waktu respons yang lebih cepat.
+                Statistik basis data waktu nyata. Mengurangi kehilangan lalu
+                lintas dan meningkatkan kinerja situs.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-12 mt-5">
+            <div class="box" data-aos="fade-right">
+              <div class="icon"><i class="bi bi-pc-display"></i></div>
+              <h4 class="title"><a href="">Machine Learning</a></h4>
+              <p class="description">
+                Setiap kueri dianalisis menggunakan parameter dari miliaran
+                kueri basis data. Dapatkan lalu lintas berkualitas tinggi, CPL
+                rendah, dan ROI tinggi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing  -->
+    <section id="pricing">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title">Harga</h3>
+          <span class="section-divider"></span>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="fade-right">
+              <h3>Free</h3>
+              <h4><sup>Rp.</sup>0<span> 3 days</span></h4>
+              <ul>
+                <li>
+                  <i class="bi bi-check-circle"></i> 1 Domain limit (Include Sub
+                  Domain)
+                </li>
+                <li><i class="bi bi-check-circle"></i> PHP integration</li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Unlimited Campaign limit
+                </li>
+                <li><i class="bi bi-check-circle"></i> Any traffic sources</li>
+                <li><i class="bi bi-check-circle"></i> Bots protection</li>
+                <li><i class="bi bi-check-circle"></i> VPN protection</li>
+                <li><i class="bi bi-check-circle"></i> Proxy protection</li>
+              </ul>
+              <a href="https://hidebos.com/login" class="get-started-btn"
+                >Get Started</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="fade-up">
+              <h3>Standard</h3>
+              <h4><sup>Rp.</sup>195K<span> month</span></h4>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> 1 Domain limit</li>
+                <li><i class="bi bi-check-circle"></i> Unlimited Sub Domain</li>
+                <li><i class="bi bi-check-circle"></i> Support Reset Domain</li>
+                <li><i class="bi bi-check-circle"></i> PHP integration</li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Unlimited Campaign limit
+                </li>
+                <li><i class="bi bi-check-circle"></i> Any traffic sources</li>
+                <li><i class="bi bi-check-circle"></i> Bots protection</li>
+                <li><i class="bi bi-check-circle"></i> VPN protection</li>
+                <li><i class="bi bi-check-circle"></i> Proxy protection</li>
+              </ul>
+              <a href="https://hidebos.com/login" class="get-started-btn"
+                >Get Started</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box featured" data-aos="fade-left">
+              <h3>Pro</h3>
+              <h4><sup>Rp.</sup>459K<span> month</span></h4>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> 3 Domain limit</li>
+                <li><i class="bi bi-check-circle"></i> Unlimited Sub Domain</li>
+                <li><i class="bi bi-check-circle"></i> Support Reset Domain</li>
+                <li><i class="bi bi-check-circle"></i> PHP integration</li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Unlimited Campaign limit
+                </li>
+                <li><i class="bi bi-check-circle"></i> Any traffic sources</li>
+                <li><i class="bi bi-check-circle"></i> Bots protection</li>
+                <li><i class="bi bi-check-circle"></i> VPN protection</li>
+                <li><i class="bi bi-check-circle"></i> Proxy protection</li>
+              </ul>
+              <a href="https://hidebos.com/login" class="get-started-btn"
+                >Get Started</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="fade-left">
+              <h3>Bisnis</h3>
+              <h4><sup>Rp.</sup>1.099K</h4>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> 10 Domain limit</li>
+                <li><i class="bi bi-check-circle"></i> Unlimited Sub Domain</li>
+                <li><i class="bi bi-check-circle"></i> Support Reset Domain</li>
+                <li><i class="bi bi-check-circle"></i> PHP integration</li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Unlimited Campaign limit
+                </li>
+                <li><i class="bi bi-check-circle"></i> Any traffic sources</li>
+                <li><i class="bi bi-check-circle"></i> Bots protection</li>
+                <li><i class="bi bi-check-circle"></i> VPN protection</li>
+                <li><i class="bi bi-check-circle"></i> Proxy protection</li>
+              </ul>
+              <a href="https://hidebos.com/login" class="get-started-btn"
+                >Get Started</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video  -->
+    <section id="video" class="section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title">Video</h3>
+          <span class="section-divider"></span>
+        </div>
+
+        <div class="row g-0">
+          <div
+            class="col-lg-12 d-flex justify-content-center align-items-center"
+          >
+            <div class="col-lg-8 col-md-6">
+              <div class="gallery-item" data-aos="fade-up">
+                <div class="gallery-popup">
+                  <iframe
+                    height="500"
+                    width="100%"
+                    src="https://www.youtube.com/embed/6V4P7FTq2wU"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>Cloakit</h3>
+              <p>
+                Solusi profesional untuk penyaringan lalu lintas dan keamanan
+                konten berdasarkan Pembelajaran Mesin.
+              </p>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" class="instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="bi bi-geo-alt"></i>
+                <p>Jl. Asrama Haji BTN Tirasa Blok C9/12, Sudiang, Makassar</p>
+              </div>
+
+              <div>
+                <i class="bi bi-envelope"></i>
+                <p>
+                  <a
+                    href="/cdn-cgi/l/email-protection"
+                    class="__cf_email__ text-decoration-none text-dark"
+                    data-cfemail="b3c0c6c3c3dcc1c7f3dbdad7d6d1dcc09dd0dcde"
+                    >support@cloakit.com</a
+                  >
+                </p>
+              </div>
+
+              <div>
+                <i class="bi bi-whatsapp"></i>
+                <p>0882 4262 2710</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="form-group col-lg-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control mt-3"
+                      id="name"
+                      placeholder="Your Name"
+                      data-rule="minlen:4"
+                      data-msg="Please enter at least 4 chars"
+                    />
+                  </div>
+                  <div class="form-group col-lg-6 mt-3 mt-lg-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      data-rule="email"
+                      data-msg="Please enter a valid email"
+                    />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 8 chars of subject"
+                  />
+                </div>
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" title="Send Message">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+
+    <!-- BOOTSTRAP JS CDN -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="./src/main.js"></script>
+
+    <script>
+      (function () {
+        var js =
+          "window['__CF$cv$params']={r:'7f47649d4cbd4092',t:'MTY5MTY2MTYzOS42MTIwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";
+        var _0xh = document.createElement("iframe");
+        _0xh.height = 1;
+        _0xh.width = 1;
+        _0xh.style.position = "absolute";
+        _0xh.style.top = 0;
+        _0xh.style.left = 0;
+        _0xh.style.border = "none";
+        _0xh.style.visibility = "hidden";
+        document.body.appendChild(_0xh);
+        function handler() {
+          var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
+          if (_0xi) {
+            var _0xj = _0xi.createElement("script");
+            _0xj.innerHTML = js;
+            _0xi.getElementsByTagName("head")[0].appendChild(_0xj);
+          }
+        }
+        if (document.readyState !== "loading") {
+          handler();
+        } else if (window.addEventListener) {
+          document.addEventListener("DOMContentLoaded", handler);
+        } else {
+          var prev = document.onreadystatechange || function () {};
+          document.onreadystatechange = function (e) {
+            prev(e);
+            if (document.readyState !== "loading") {
+              document.onreadystatechange = prev;
+              handler();
+            }
+          };
+        }
+      })();
+    </script>
+  </body>
+</html>
