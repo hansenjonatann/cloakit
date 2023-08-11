@@ -14,6 +14,7 @@ document.getElementById("register-btn").addEventListener("click", function () {
 
   // Simpan data di Local Storage
   localStorage.setItem("userData", userDataJSON);
+  window.location.href = "./login.html";
 
   alert("Data pengguna telah disimpan di Local Storage");
 });
