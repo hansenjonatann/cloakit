@@ -8,7 +8,7 @@ document.getElementById("login-btn").addEventListener("click", function () {
   if (storedUserDataJSON) {
     let storedUserData = JSON.parse(storedUserDataJSON);
 
-    window.location.href = "../welcome.html";
+    window.location.href = "../dashboard.html";
 
     if (
       email === storedUserData.email &&
