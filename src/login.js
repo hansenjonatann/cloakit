@@ -9,7 +9,6 @@ document.getElementById("login-btn").addEventListener("click", function () {
     let storedUserData = JSON.parse(storedUserDataJSON);
 
     window.location.href = "../dashboard.html";
-
     if (
       email === storedUserData.email &&
       password === storedUserData.password
